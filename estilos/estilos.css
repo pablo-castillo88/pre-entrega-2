@@ -1,0 +1,784 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%; 
+    overflow: hidden;  
+}
+
+@font-face {
+    font-family:"Future_Now.ttf" ;
+    src: url("../fuentes/Future\ Now.ttf");
+}
+
+header{
+    background-image: linear-gradient(to bottom, #000000, #030303, #060606, #09090a, #0c0c0d, #0d0d0f, #0f0d11, #110e13, #140d13, #170b12, #1b0a0f, #1d0909);
+    height: 22vh;
+}
+
+
+/*img*/
+img{
+    height: 250px;
+    width: 250px; 
+}
+/* img*/
+
+
+
+/*navegador*/
+.navegador{
+    position: relative;
+    left: 15%;
+}
+/*fin de navegador*/
+
+
+/*tamano de navegador*/
+.font{
+    font-size: 35px;
+    font-family:"Future_Now.ttf"  
+}
+/*termina navegador*/
+
+
+/*titulo*/
+.titulo{
+    text-align: center;
+    color: red;
+    font-size: 90px;
+    padding-top: 20px;
+    text-shadow: rgb(255, 255, 255) 1px 2px 1px;
+    font-family:"Future_Now.ttf"
+}
+/* fin titulo*/
+
+
+
+/* main*/
+
+    main{
+        background:linear-gradient(to right,#00000099,rgba(0, 0, 0, 0.642)), url("../src/fondo\ main.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 66vh;
+        
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        color: red;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+        padding-top: 1%;
+        text-shadow: white 1px 1px 1px ;
+        font-family:"Future_Now.ttf"
+        
+        
+
+    }
+
+    .contenedor_1{
+        width: 60%;
+        height: 30%;
+    }
+
+    .subtitulo{
+        font-size: 45px;
+        color: red;
+        font-weight: 400;
+        text-shadow: black 1px 1px 1px;
+        margin-left: 2%;
+        font-family:"Future_Now.ttf"
+    }
+
+    .parrafo{
+        font-size: 24px;
+        color: white;
+        font-weight: 200;
+        margin-left: 3%;
+        padding-top: 1%;
+        text-shadow: red 0.5px 0.5px 1px;
+    }
+
+
+    .contenedor_2{
+        width: 60%;
+        max-height: 30%;
+    }
+
+    .subtitulo_2{
+        font-size: 45px;
+        color: red;
+        font-weight: 400;
+        text-shadow: black 1px 1px 1px;
+        margin-left: 1%;
+        padding-top: 2%;
+        font-family:"Future_Now.ttf"
+    }
+
+    .parrafo_2{
+        font-size: 24px;
+        color: white;
+        font-weight: 200;
+        margin-left: 3%;
+        padding-top: 1%;
+        text-shadow: red 0.5px 0.5px 1px;
+    }
+
+    .ver_mas{
+        color: red;
+        text-decoration: none;
+    }
+
+    /*termina main*/
+
+
+
+    /*footer*/
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        height: 12vh;
+        width: 100%;
+        
+        background-image: linear-gradient(to top, #000000, #030303, #060606, #09090a, #0c0c0d, #0d0d0f, #0f0d11, #110e13, #140d13, #170b12, #1b0a0f, #1d0909);
+    }
+
+    .caja_redes{
+        width: 600px;
+        padding-left: 25px;
+        padding-top: 40px;
+    }
+
+    .caja_redes h2{
+        color: red;
+        font-size: 40px;
+        letter-spacing: 0.6px;
+        font-family:"Future_Now.ttf"
+
+    }
+
+    .footer1 img{
+        height: 60px;
+        width: 60px;
+        margin-top: 40px;
+    }
+    .footer2 img{
+        height: 60px;
+        width: 60px;
+        margin-top: 40px;
+    }
+    .footer3 img{
+        height: 60px;
+        width: 60px;
+        margin-top: 55px;
+        margin-right: 40px;
+    }
+    /*termina footer*/
+
+/*comienza galeria*/
+
+.contenedor_imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 1%;
+}
+
+.imagen{
+    padding: 10px;
+}
+
+.imagen img{
+    border-radius: 10px;
+    width: 450px;
+    height: 300px;
+}
+
+.imagen :hover{
+    -webkit-transform:scale(1.5);transform:scale(1.2);
+    
+    
+}
+
+/*termina galeria*/
+
+/*contacto*/
+
+.tit{
+    color: rgb(227, 197, 197);
+    padding-top: 1%;
+    margin-left: 3%;
+    text-shadow: red 2px 5px  12px ;
+    font-size: 48px;
+    font-family:"Future_Now.ttf"
+}
+
+.form{
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+.form .caja .tex{
+    width: 270px;
+    height: 50px;
+    padding: 16px;
+    margin-bottom: 13px;
+    background-color: black;
+    font-family:'Kanit', sans-serif; color: white ;
+    font-size: 15.5px;
+    border-radius: 8px;
+    border: 1px solid red;
+
+}
+
+.form .caja .mensaje{
+    display: inline-block;
+    background-color: #000000;
+    font-size: 16px;
+    padding-left: 6px;
+    padding-top: 10px;
+    font-family: 'Kanit', sans-serif; color: white ;;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+
+
+.form .caja .botons{
+    width: 180px;
+    height: 60px;
+    margin-top: 10px;
+    background-color: #000000;
+    font-family: 'Kanit', sans-serif; color: white ;;
+    border-radius: 8px;
+    border: 1px solid red;
+
+}
+
+
+.contacto .video{
+    position: relative;
+    left: 65%;
+    bottom: 400px;
+    border: 3px solid #ff0000;
+    width: 607px;
+    height: 346px;
+}
+/*termina contactos*/
+
+
+
+
+
+
+    /*comienza media*/
+
+    @media (max-width: 1920px){
+        .caja_logo img{
+            height: 160px;
+            width: 160px;
+            margin-left: 20%;
+            
+        }
+        .font{
+            font-size:35px ;
+        }
+        .titulo{
+            font-size: 40px;
+        }
+        .subtitulo{
+            font-size: 40px;
+        }
+        .parrafo{
+            font-size: 20px;
+        }
+        .subtitulo_2{
+            font-size: 40px;
+        }
+        .parrafo_2{
+            font-size:20px ;
+        }
+        .navegador{
+            position: relative;
+            left: 15%;
+        }
+        .contenedor_1{
+            width: 85%;
+            padding-top: 1%;
+        }
+        .contenedor_2{
+            width: 85%;
+            margin-top: 1%;
+        } 
+        .caja_redes h2{
+            font-size: 40px;
+
+        } 
+        .footer1 img{
+            height: 60px;
+            width: 60px;
+            margin-top: 40px;
+        }
+        .footer2 img{
+            height: 60px;
+            width: 60px;
+            margin-top: 40px;
+        }
+        .footer3 img{
+            height: 60px;
+            width: 60px;
+            margin-top: 40px;
+            margin-right: 50px;
+        }
+        .contenedor_imagenes{
+            padding-top: 2%;
+        }
+        .imagen img{
+            border-radius: 10px;
+            width: 255px;
+            height: 185px;
+        }
+        .contacto .video{
+            position: relative;
+            left: 45%;
+            bottom: 393px;
+            border: 3px solid #ff0000;
+            width: 607px;
+            height: 346px;
+        }
+        .tit{
+            font-size: 40px;
+        }
+        .form .caja .tex{
+            width: 220px;
+            height:30px ;
+        }
+        .form .caja .mensaje{
+            width: 320px;
+            height: 180px;
+        }
+        .form .caja .botons{
+            height:40px ;
+        }              
+        
+
+    }
+
+    @media (max-width: 1629px){
+        
+        .caja_logo img{
+            height: 140px;
+            width: 140px;
+            margin-left: 20%;
+            
+        }
+        .font{
+            font-size:25px ;
+        }
+        .titulo{
+            font-size: 40px;
+        }
+        .subtitulo{
+            font-size: 28px;
+        }
+        .parrafo{
+            font-size: 14px;
+        }
+        .subtitulo_2{
+            font-size: 28px;
+        }
+        .parrafo_2{
+            font-size:14px ;
+        }
+        .navegador{
+            position: relative;
+            left: 15%;
+        }
+        .contenedor_1{
+            width: 85%;  
+        }
+        .contenedor_2{
+            width: 85%;
+        } 
+        .caja_redes h2{
+            font-size: 30px;
+        } 
+        .footer1 img{
+            height: 50px;
+            width: 50px;
+            margin-top: 30px;
+        }
+        .footer2 img{
+            height: 50px;
+            width: 50px;
+            margin-top: 30px;
+        }
+        .footer3 img{
+            height: 50px;
+            width: 50px;
+            margin-top: 30px;
+            margin-right: 50px;
+        }
+        .contenedor_imagenes{
+            padding-top: 1%;
+        }
+        .imagen img{
+            border-radius: 10px;
+            width: 250px;
+            height: 150px;
+        }
+        .contacto .video{
+            position: relative;
+            left: 45%;
+            bottom: 350px;
+            border: 3px solid #ff0000;
+            width: 506px;
+            height: 305px;
+        }
+        .contacto .video iframe{
+            width: 500px;
+            height: 300px;
+        }
+        .tit{
+            font-size: 30px;
+        }
+        .form .caja .tex{
+            padding-bottom: 1%;
+            width: 220px;
+            height:15px ;
+            font-size: 12px;
+        }
+        .form .caja .mensaje{
+            width: 320px;
+            height: 95px;
+            font-size: 12;
+        }
+        .form .caja .botons{
+            height:30px ;
+            font-size: 15px;
+        } 
+        h3{
+            font-size: 30px;
+        }             
+        
+    }
+
+    @media (max-width: 1200px){
+        
+        .caja_logo img{
+            height: 160px;
+            width: 160px;
+            margin-top: 5%;
+        }
+        .font{
+            font-size:25px ;
+        }
+        .titulo{
+            font-size: 45px;
+        }
+        .subtitulo{
+            font-size: 30px;
+        }
+        .parrafo{
+            font-size: 14px;
+        }
+        .subtitulo_2{
+            font-size: 30px;
+        }
+        .parrafo_2{
+            font-size:14px ;
+        }
+        .navegador{
+            position: relative;
+            left: 15%;
+        }
+        .contenedor_1{
+            width: 85%;
+            padding-top: 2%;
+        }
+        .contenedor_2{
+            width: 85%;
+            margin-top: 2%;
+        } 
+        .caja_redes h2{
+            font-size:28px ;
+        } 
+        .contenedor_imagenes{
+            padding-top: 2%;
+        }
+        .imagen img{
+            border-radius: 10px;
+            width: 200px;
+            height: 150px;
+        }
+        .contacto .video{
+            display: none;
+        }
+        .tit{
+            font-size: 35px;
+        }
+        .form .caja .tex{
+            width: 220px;
+            height:30px ;
+        }
+        .form .caja .mensaje{
+            width: 320px;
+        }
+        .form .caja .botons{
+            height:45px ;
+        }              
+    }
+
+    @media (max-width: 800px){
+        
+        .caja_logo img{
+            height: 160px;
+            width: 160px;
+            margin-top: 10%;
+        }
+        .font{
+            font-size:16px ;
+        }
+        .titulo{
+            display: none;
+        }
+        .subtitulo{
+            font-size: 27px;
+        }
+        .parrafo{
+            font-size: 12.5px;
+        }
+        .subtitulo_2{
+            font-size: 27px;
+        }
+        .parrafo_2{
+            font-size:12.5px ;
+        }
+        .navegador{
+            position: relative;
+            left: 15%;
+        }
+        .contenedor_1{
+            width: 95%;
+            padding-top: 10%;
+        }
+        .contenedor_2{
+            width: 95%;
+            margin-top: 10%;
+        }
+        .footer1 img{
+            height: 45px;
+        }
+        .footer2 img{
+            height: 45px;
+        }
+        .footer3 img{
+            height: 45px;
+        }
+        .caja_redes h2{
+            font-size: 20px;
+        }
+        .contenedor_imagenes{
+            padding-top: 15%;
+        }
+        .imagen img{
+            border-radius: 10px;
+            width: 145px;
+            height: 90px;
+        }
+        .contacto .video{
+            display: none;
+        }
+        .tit{
+            font-size: 30px;
+        }
+        .form .caja .tex{
+            width: 200px;
+            height:30px ;
+        }
+        .form .caja .mensaje{
+            width: 280px;
+        }
+        .form .caja .botons{
+            height:45px ;
+        }
+        h3{
+            font-size: 35px;
+        }      
+        
+    }
+
+    @media (max-width: 500px){
+        
+        .caja_logo img{
+            height: 110px;
+            width: 110px;
+            margin-top: 20%;
+            
+        }
+        .font{
+            font-size:12px ;
+        }
+        .titulo{
+            display: none;
+        }
+        .subtitulo{
+            font-size: 22px;
+        }
+        .parrafo{
+            font-size: 11px;
+        }
+        .subtitulo_2{
+            font-size: 22px;
+        }
+        .parrafo_2{
+            font-size:11px ;
+        }
+        .navegador{
+            position: relative;
+            left: 15%;
+        }
+        .contenedor_1{
+            width: 96%;
+            padding-top: 3%;
+        }
+        .contenedor_2{
+            width: 96%;
+            margin-top: 8%;
+        } 
+        
+        .caja_redes h2{
+            display: none;
+        }           
+        .footer1 img{
+            position: relative;
+            bottom: 28px;
+            right: 25px;
+            height: 30px;
+            
+        }
+        .footer2 img{
+            position: relative;
+            bottom: 28px;
+            right: 25px;
+            height: 30px;
+            
+        }
+        .footer3 img{
+            position: relative;
+            bottom: 28px;
+            right: 25px;
+            height: 30px;
+             
+        }
+        .contenedor_imagenes{
+            padding-top: 25%;
+        }
+        .imagen img{
+            border-radius: 10px;
+            width: 125px;
+            height: 67px;
+        } 
+        .contacto .video{
+            display: none;
+        }
+        
+        .tit{
+            display: none;
+        }
+        .form .caja .tex{
+            width: 200px;
+            height:25px ;
+        }
+        .form .caja .mensaje{
+            width: 280px;
+            
+        }
+        .form .caja .botons{
+            height:45px ;
+        }
+        h3{
+            font-size: 22.5px;
+        } 
+        .tit{
+            color: rgb(227, 197, 197);
+            padding-top: 1%;
+            margin-left: 3%;
+            text-shadow: red 2px 5px  12px ;
+            font-size: 16px;
+            font-family:"Future_Now.ttf"
+        }
+        
+        .form{
+            margin-left: 3%;
+            padding-top: 2%;
+        }
+        
+        .form .caja .tex{
+            width: 200px;
+            height: 20px;
+            padding: 16px;
+            margin-bottom: 13px;
+            background-color: black;
+            font-family:'Kanit', sans-serif; color: white ;
+            font-size: 15.5px;
+            border-radius: 8px;
+            border: 1px solid red;
+        
+        }
+        
+        .form .caja .mensaje{
+            display: inline-block;
+            height: 220px;
+            background-color: #000000;
+            font-size: 16px;
+            padding-left: 6px;
+            padding-top: 30px;
+            font-family: 'Kanit', sans-serif; color: white ;;
+            border-radius: 8px;
+            border: 1px solid red;
+        }
+        
+        
+        .form .caja .botons{
+            width: 200px;
+            height: 30px;
+            margin-top: 10px;
+            background-color: #000000;
+            font-family: 'Kanit', sans-serif; color: white ;;
+            border-radius: 8px;
+            border: 1px solid red;
+        
+        }
+        
+        
+        .contacto .video{
+            display: none;
+        } 
+        
+    }
+
+    /*termina media*/
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+
+    
